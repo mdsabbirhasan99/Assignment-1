@@ -6,9 +6,11 @@ body{
 }
 h1{
     font-size: 50px;
+    font-weight: 700;
 }
 h2{
     font-size: 50px;
+    font-weight: 700;
 }
 .mission{ 
     border-left: 7px solid ;
@@ -37,7 +39,7 @@ h2{
 .link-class{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    cursor: white;
+    color: white;
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5%;
@@ -81,5 +83,10 @@ h2{
 
     width:110%;
    
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
 }
     
