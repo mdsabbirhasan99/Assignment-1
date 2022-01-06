@@ -1,4 +1,85 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 5%;
+   
 }
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 50px;
+}
+.mission{ 
+    border-left: 7px solid ;
+    border-image: linear-gradient(rgb(231, 147, 231),rgb(241, 91, 64));
+    border-image-slice: 1;
+}
+
+.orange-color{
+    color: orange;
+}
+
+.flexble-contaner{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width{
+    width: 50%;
+    margin: auto;
+}
+
+.half-width img{
+    width: 100%;  
+}
+
+.link-class{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    cursor: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5%;
+}
+
+.mymission{
+    text-align: center;
+}
+
+
+.mission-item{
+    width: 50%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 5px 5px 20px;
+    border-radius: 5%;
+     
+
+}
+.mission-item img{
+    width: 110px;
+}
+
+#mission{
+    background-color: rgb(232, 247, 247);
+}
+#vission{
+    background-color: rgb(255, 238, 238);
+}
+#goals{ 
+    background-color: rgb(255, 244, 214);
+}
+
+.develop-area{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    
+}
+#coding{
+
+    width:110%;
+   
+}
+    
